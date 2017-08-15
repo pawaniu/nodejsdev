@@ -1,7 +1,7 @@
 export default function getBaseUrl() {
     
    return getQueryStringParameterByName('useMockApi') ? 'http://localhost:3001/' 
-   : '/';
+   : 'https://young-sierra-84597.herokuapp.com/';
 }
 
 function getQueryStringParameterByName(name, url) {
